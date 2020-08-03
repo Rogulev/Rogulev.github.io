@@ -1,0 +1,154 @@
+html {
+  min-width: 360px;
+  font-family: fantasy;
+}
+
+h1 {
+  margin: 50px 0;
+  color: #495057;
+  font-family: cursive;
+}
+
+a,
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.error-section div {
+  display: flex;
+  text-align: center;
+  margin: auto;
+  max-width: 500px;
+}
+
+.error-section p{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.table .thead-dark th {
+  border-top: none;
+}
+
+.table .thead-dark th:first-child {
+  border-top-left-radius: 5px;
+}
+
+.table .thead-dark th:last-child {
+  border-top-right-radius: 5px;
+}
+
+.search-block {
+  margin-bottom: 50px;
+}
+
+.filter-block {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.filter-panel {
+  box-sizing: border-box;
+  width: fit-content;
+  margin-bottom: 50px;
+}
+
+.search-wrapper {
+  margin: auto;
+  max-width: 500px;
+}
+
+.input-search {
+  border-radius: 5px 0 0 5px;
+}
+
+.button-search {
+  border-radius: 0 5px 5px 0;
+}
+
+#body-table tr:hover,
+#body-table tr:focus {
+  cursor: pointer;
+  background-color: #e9ecef;
+  transition: 0.3s;
+}
+
+.colAvatar img {
+  width: 25px;
+  height: 25px;
+}
+
+.colAvatar {
+  width: 75px;
+  text-align: center;
+}
+
+.avatar {
+  text-align: center;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.user-avatar {
+  width: 50%;
+}
+
+.all-repo {
+  width: 50%;
+}
+
+.user-avatar img {
+  width: 75%;
+  display: block;
+  margin: 0 0 0 auto;
+}
+
+#exampleModalLabel {
+  color: #495057;
+}
+
+.main-repo {
+  font-weight: 600;
+  font-style: italic;
+
+}
+
+#exampleModal a {
+  color: #495057;
+  position: relative;
+}
+
+#exampleModal a:hover {
+  color: #17a2b8;
+}
+
+#exampleModal a::after {
+  display: block;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #495057;
+  transition: 0.5s;
+}
+
+#exampleModal a:hover::after {
+  background-color: #17a2b8;
+  width: 100%;
+}
+
+.details__item {
+  color: #495057;
+  margin-bottom: 10px;
+}
